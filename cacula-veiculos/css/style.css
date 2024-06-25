@@ -1,0 +1,82 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'CA Kometo', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'CA Kometo', sans-serif;
+}
+
+.jumbotron {
+  background: url('img/banner.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+
+.section-title {
+  margin-bottom: 40px;
+}
+
+.card-title {
+  font-family: 'CA Kometo', sans-serif;
+}
+
+footer {
+  background-color: #d14412 ;
+}
+
+footer p, footer a
+{
+  color: #ffffff;
+  }
+  
+  /* Formulário de Contato */
+  form {
+  max-width: 600px;
+  margin: 0 auto;
+  }
+  
+  /* Ícones de Serviços */
+  .fa-3x {
+  color: #4156a0;
+  }
+  
+  /* Botão Principal */
+  .btn-primary {
+  background-color: #4156a0;
+  border-color: #4156a0;
+  }
+  
+  .btn-primary
+  {
+  background-color: #4156a0;
+  border-color: #4156a0;
+  }
+  
+  /* Cores Adicionais */
+  .bg-primary {
+  background-color: #4156a0 !important;
+  }
+  
+  .bg-dark {
+  background-color: #d14412 !important;
+  }
+  
+  .text-primary {
+  color: #4156a0 !important;
+  }
+  
+  .text-dark {
+  color: #333333 !important;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+  .jumbotron {
+  padding: 100px 20px;
+  }
+  }
+  
