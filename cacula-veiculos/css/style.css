@@ -3,8 +3,8 @@ body {
 }
 
 body nav img {
-  border-radius: 50%;
-  border: 7px solid #1b3071;
+  border-radius: 50% !important;
+  
  
 }
 h1, h2, h3, h4, h5, h6 {
@@ -17,13 +17,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron {
-  background: url('img/banner.jpg') no-repeat center center;
-  background-size: cover;
+  background-color:#f4831c !important;
 }
 
 
 .section-title {
   margin-bottom: 40px;
+}
+
+section #lista li {
+  list-style: none;
+}
+
+section .card-body {
+  max-height: 500rem;
+  align-items: center;
+  
+  
 }
 
 .card-title {
@@ -75,7 +85,7 @@ footer p, footer a
   
   /* Cores Adicionais */
   .bg-primary {
-  background-color: #f4831c !important;
+  background-color: #1b3071 !important;
   }
   
   .bg-dark {
