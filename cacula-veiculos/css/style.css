@@ -104,6 +104,16 @@ footer p, footer a
   @media (max-width: 768px) {
   .jumbotron {
   padding: 100px 20px;
+  background-color: #f4831c !important;
   }
+
+  body nav img {
+    border-radius: 50% !important;
+    
   }
-  
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'CA Kometo', sans-serif !important;
+    color: #1b3071 !important;
+  }
+}
