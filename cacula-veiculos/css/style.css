@@ -4,6 +4,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'CA Kometo', sans-serif;
+  color: orangered;
 }
 
 .navbar-brand {
@@ -24,13 +25,24 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'CA Kometo', sans-serif;
 }
 
+.my-5 h2 {
+  margin-bottom: 60px;
+}
+
+.my-5 .row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+
 footer {
-  background-color: #d14412 ;
+  background-color: #4156a0 ;
 }
 
 footer p, footer a
 {
-  color: #ffffff;
+  color: white;
   }
   
   /* Formulário de Contato */
@@ -41,7 +53,7 @@ footer p, footer a
   
   /* Ícones de Serviços */
   .fa-3x {
-  color: #4156a0;
+  color: orangered;
   }
   
   /* Botão Principal */
@@ -62,11 +74,11 @@ footer p, footer a
   }
   
   .bg-dark {
-  background-color: #d14412 !important;
+  background-color: #4156a0 !important;
   }
   
   .text-primary {
-  color: #4156a0 !important;
+  color: orangered !important;
   }
   
   .text-dark {
