@@ -5,21 +5,20 @@ body {
 body nav img {
   border-radius: 50% !important;
   
- 
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'CA Kometo', sans-serif;
   color: #1b3071;
 }
 
+header .jumbotron {
+  background-color: #f4831c;
+}
+
 .navbar-brand {
   font-family: 'CA Kometo', sans-serif;
 }
-
-.jumbotron {
-  background-color:#f4831c !important;
-}
-
 
 .section-title {
   margin-bottom: 40px;
@@ -32,8 +31,6 @@ section #lista li {
 section .card-body {
   max-height: 500rem;
   align-items: center;
-  
-  
 }
 
 .card-title {
@@ -68,9 +65,9 @@ footer p, footer a
   
   /* Ícones de Serviços */
   .fa-3x {
-  color: #1b3071;
+  color: #f4831c;
   }
-  
+
   /* Botão Principal */
   .btn-primary {
   background-color: #1b3071;
@@ -96,11 +93,7 @@ footer p, footer a
   color: #1b3071 !important;
   }
   
-  .text-dark {
-  color: #333333 !important;
-  }
-  
-  /* Responsividade */
+ /* Responsividade */
   @media (max-width: 768px) {
   .jumbotron {
   padding: 100px 20px;
